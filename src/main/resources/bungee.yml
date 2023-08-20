@@ -1,0 +1,6 @@
+name: AntiVPN
+version: ${project.version}
+main: piko.nah.bungee.antivpn.AntiVPN
+author: TheFork1337 and Piko
+depend: [BungeeCord]
+description: Verifies that users are not utilizing VPN when connecting to the servers.

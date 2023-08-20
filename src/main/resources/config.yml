@@ -1,0 +1,26 @@
+########################################
+#    Plugin writen by Nah and Piko     #
+#        Services hosted by nah        #
+########################################
+
+# Basic configuration, leave as or ask nah#2134 on discord for help if unsure.
+CUS: "https://antivpn.k55.se:5002/api/lookup/"
+CUS_TOKEN: "12341234"
+################################################################################
+
+# Change below to use own command that will be executed when a player with vpn is joining. player <------ will be changed by the plugin to the players name.
+use_custom_command: false
+Command: "kick player VPN är inte tillåtet på våra servrar."
+
+# If "use_custom_command" is false the below message will be shown to the player when disconnected.
+message: "Using VPN"
+#
+
+
+# Send a message via telegram when a player has been kicked/disconnected. This is optional.
+telegram: false # true / false
+telegram_token: "SOME-TOKEN"
+telegram_chat_id: "SOME-CHAT-ID"
+telegram_message: "player anslöt med VPN och blev därför kickad."
+
+
